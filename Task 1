@@ -1,0 +1,17 @@
+# Importing the necessary library
+import matplotlib.pyplot as plt
+
+# Data
+year = [1990,2000,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023]
+male_population = [122205009,138910694,157301571,158580581,159847727,160970309,161911851,162730147,164316147,164490184,165013345, 165779952]
+
+# Creating the bar chart
+plt.bar(year, male_population, color='blue')
+
+# Adding title and labels
+plt.title('Male population distribution')
+plt.xlabel('year')
+plt.ylabel('male_population')
+
+# Displaying the chart
+plt.show()
